@@ -47,7 +47,7 @@ header div button>a{
     display: flex;
     background-image: url(../Assets/Hero-bg.png);
     background-size: cover;
-    height: 895px;
+    height: 820px;
     max-width: 1920px;
     justify-content: center;
 }
@@ -100,4 +100,114 @@ header div button>a{
     margin-top: 42px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+}
+.hero button>a{
+    text-decoration: none;
+    color: white;
+}
+
+        /* 1st section's css end here */
+
+.section-bg-2{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    width: 1500px;
+    height: 1950px;
+    margin: 90px auto 0 auto;
+}
+.section-2{
+    width: 1248px;
+    height: 1750px;
+    margin: 100px auto;
+}
+.first-division{
+    height: 125px;
+    margin: 0 60px;
+}
+.first-division h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.first-division p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 32px;
+}
+.second-division{
+    display: flex;
+    height: 478px;
+    margin: 42px 60px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 225),rgba(255, 255, 255, 0) 100%);
+    
+}
+.second-division-child{
+    display: flex;
+    margin: 63px;
+    width: 2000px;
+    justify-content: space-between;
+}
+.second-division-child-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 550px;
+}
+.second-division-child-div1 h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.second-division-child-div1 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.second-division-child-div1 button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    width: 198px;
+    height: 63px;
+}
+.second-division-child-div1 button a{
+    text-decoration: none;
+}
+.second-division-child-div2{
+    display: flex;
+    width: 360px;
+    justify-content: center;
+}
+.second-division-child-div2 img{
+}
+.third-division{
+    height: 478px;
+    margin: 42px 60px;
+    border: 2px solid blue;
+}
+.fourth-division{
+    height: 478px;
+    margin: 42px 60px 60px 60px;
+    border: 2px solid blue;
 }
