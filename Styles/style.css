@@ -51,7 +51,6 @@ header div button>a{
     max-width: 1920px;
     justify-content: center;
 }
-
 .hero{
     display: flex;
     flex-direction: column;
@@ -114,11 +113,13 @@ header div button>a{
     width: 1500px;
     height: 1950px;
     margin: 90px auto 0 auto;
+    border: 1px solid white;
 }
 .section-2{
     width: 1248px;
     height: 1750px;
     margin: 100px auto;
+    
 }
 .first-division{
     height: 125px;
@@ -199,15 +200,115 @@ header div button>a{
     width: 360px;
     justify-content: center;
 }
-.second-division-child-div2 img{
-}
+
 .third-division{
+    display: flex;
     height: 478px;
     margin: 42px 60px;
-    border: 2px solid blue;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 225),rgba(255, 255, 255, 0) 100%);
+}
+.third-division-child{
+    display: flex;
+    margin: 63px;
+    width: 360px;
+    justify-content: space-between;
+}
+.third-division-child-div1{
+    display: flex;
+    width: 360px;
+    justify-content: center;
+}
+
+.third-division-child-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 550px;
+}
+.third-division-child-div2 h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.third-division-child-div2 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.third-division-child-div2 button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    width: 198px;
+    height: 63px;
+}
+.third-division-child-div2 button a{
+    text-decoration: none;
 }
 .fourth-division{
+    display: flex;
     height: 478px;
     margin: 42px 60px 60px 60px;
-    border: 2px solid blue;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 225),rgba(255, 255, 255, 0) 100%);
+}
+.fourth-division-child{
+    display: flex;
+    margin: 63px;
+    width: 2000px;
+    justify-content: space-between;
+}
+.fourth-division-child-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 550px;
+}
+.fourth-division-child-div1 h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.fourth-division-child-div1 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.fourth-division-child-div1 button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    width: 198px;
+    height: 63px;
+}
+.fourth-division-child-div1 button a{
+    text-decoration: none;
+}
+.fourth-division-child-div2{
+    display: flex;
+    width: 360px;
+    justify-content: center;
 }
