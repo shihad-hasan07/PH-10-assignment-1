@@ -312,3 +312,163 @@ header div button>a{
     width: 360px;
     justify-content: center;
 }
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1500px;
+    height: 1100px;
+    margin: 100px auto 0px auto;
+}
+
+.s3-1st-division{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    width: 1100px;
+    height: 150px;
+    justify-content: space-between;
+}
+.s3-1st-division > h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+.s3-1st-division > p{color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.s3-2nd-division{
+    border: 1px solid blue;
+    border-radius: 16px;
+    width: 1500px;
+    height: 850px;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+.s3-2nd-division > iframe{
+    border-radius: 16px;
+    width: 1400px;
+    height: 750px;
+    margin: auto;
+}
+.section-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1500px;
+    height: 600px;
+    border: 1px solid blue;
+    margin: 200px auto 0 auto;
+}
+.s4-1st-division{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1100px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+.s4-1st-division h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+.s4-1st-division p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+.s4-2nd-division{
+    display: flex;
+    justify-content: space-between;
+}
+.s4-2nd-division-padding1{
+    display: flex;
+    width: 470px;
+    height:390px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.s4-2nd-division-padding2{
+    display: flex;
+    width: 470px;
+    height:390px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.s4-2nd-division-padding3{
+    display: flex;
+    width: 470px;
+    height:390px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.s4-2nd-division-box-padding{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 320px;
+    margin: auto;
+}
+.s4-2nd-division-box-padding-div1{
+    height: 80px;
+}
+.s4-2nd-division-box-padding-div1 img{
+    width: 70px;
+    height: 70px;
+}
+.s4-2nd-division-box-padding-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:300px;
+    text-align: start;
+    margin-top: 30px;
+}
+.s4-2nd-division-box-padding-div2 h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.s4-2nd-division-box-padding-div2 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+.s4-2nd-division-box-padding-div2 button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    height: 50px;
+    border: none;
+    outline: none; 
+    background: none;
+}
