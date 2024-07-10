@@ -348,7 +348,7 @@ header div button>a{
     margin-bottom: 20px;
 }
 .s3-2nd-division{
-    border: 1px solid blue;
+    border: 1px solid rgb(158, 158, 176);
     border-radius: 16px;
     width: 1500px;
     height: 850px;
@@ -367,7 +367,6 @@ header div button>a{
     justify-content: space-between;
     width: 1500px;
     height: 600px;
-    border: 1px solid blue;
     margin: 200px auto 0 auto;
 }
 .s4-1st-division{
@@ -475,19 +474,60 @@ header div button>a{
 .section-5{
     background-image: url(../Assets/handshake.jpg);
     background-position: center;
+    display: flex;
     width: 1500px;
     height: 400px;
     margin: 50px auto 200px auto;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
 }
+.s5-padding{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto auto;
+    width: 1000px;
+    height: 240px;
+}
+.s5-1st-division{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    text-align: center;
+    justify-content: space-between;
+}
+.s5-1st-division h2{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.s5-1st-division p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    padding-bottom: 30px;
+}
+.s5-2nd-division{
+    display: flex;
+    margin: auto;
+}
+
 .text-btn{
     box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
     width: 720px;
     height: 70px;
+    margin-right: 30px;
 
 }
 .submit-btn{
